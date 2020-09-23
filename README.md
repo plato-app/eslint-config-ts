@@ -4,9 +4,9 @@ An [ESLint](https://eslint.org) configuration for [TypeScript](https://www.types
 
 ## Setup
 
-First, install this package as a development dependency:
-
 ### Configuration
+
+First, install this package as a development dependency:
 
 ```sh
 yarn add @plato/eslint-config-ts --dev
