@@ -1,16 +1,23 @@
 # @plato/eslint-config-ts
 
-An [ESLint](https://eslint.org) configuration for [TypeScript](https://www.typescriptlang.org) projects.
+A shareable [ESLint](https://eslint.org) configuration for [TypeScript](https://www.typescriptlang.org) projects at [Plato](https://github.com/plato-app).
 
 ## Setup
 
 ### Configuration
 
-First, install this package as a development dependency:
+First, install this package, along with ESLint, TypeScript, and associated plugins, as development dependencies:
 
 ```sh
-yarn add @plato/eslint-config-ts --dev
+yarn add @plato/eslint-config-ts eslint typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser --dev
 ```
+
+> ℹ️ Since the command above can be difficult to visually parse, the required development dependencies are:
+> * @plato/eslint-config-ts (this package)
+> * [eslint](https://www.npmjs.com/package/eslint)
+> * [typescript](https://www.npmjs.com/package/typescript)
+> * [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
+> * [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser)
 
 Next, add the ESLint configuration (which simply extends `@plato/eslint-config-ts`) to your project's `package.json` file:
 
@@ -22,7 +29,7 @@ Next, add the ESLint configuration (which simply extends `@plato/eslint-config-t
 }
 ```
 
-> NOTE: You may also specify the [ESLint configuration](https://eslint.org/docs/user-guide/configuring) in a separate .eslintrc.json file.
+> ℹ️ You may also specify the [ESLint configuration](https://eslint.org/docs/user-guide/configuring) in a separate `.eslintrc.json` file.
 
 ### Run the Linter
 
@@ -57,8 +64,11 @@ A complete `package.json` might look similar to the following:
     "lint": "eslint path/to/lint --ext .ts"
   },
   "devDependencies": {
-    "@plato/eslint-config-ts": "^0.1.0",
-    "typescript": "^4.0.3"
+    "@plato/eslint-config-ts": "^0.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.17.0",
+    "typescript": "^4.1.3"
   },
   "eslintConfig": {
     "extends": "@plato/eslint-config-ts"
