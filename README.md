@@ -59,7 +59,7 @@ A complete `package.json` might look similar to the following:
 {
   "name": "my-package",
   "version": "0.1.0",
-  "script": {
+  "scripts": {
     "build": "tsc",
     "lint": "eslint path/to/lint --ext .ts"
   },
