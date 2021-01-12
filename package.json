@@ -1,9 +1,12 @@
 {
 	"name": "@plato/eslint-config-ts",
 	"version": "0.2.0",
+	"description": "Shareable ESLint config for TypeScript at Plato",
+	"keywords": ["plato", "eslint", "lint", "typescript"],
 	"license": "UNLICENSED",
+	"author": "Geoff Blair <geoff@platoteam.com>",
 	"main": "lib/index.js",
-	"dependencies": {
+	"peerDependencies": {
 		"@typescript-eslint/eslint-plugin": "^4.2.0",
 		"@typescript-eslint/parser": "^4.2.0",
 		"eslint": "^7.9.0",
