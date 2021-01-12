@@ -5,11 +5,15 @@
 	"keywords": ["plato", "eslint", "lint", "typescript"],
 	"license": "UNLICENSED",
 	"author": "Geoff Blair <geoff@platoteam.com>",
+	"repository": "github:plato-app/eslint-config-ts",
 	"main": "lib/index.js",
 	"peerDependencies": {
 		"@typescript-eslint/eslint-plugin": "^4.2.0",
 		"@typescript-eslint/parser": "^4.2.0",
 		"eslint": "^7.9.0",
 		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
