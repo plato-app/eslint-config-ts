@@ -3,7 +3,7 @@
 	"version": "0.3.1",
 	"description": "Shareable ESLint config for TypeScript at Plato",
 	"keywords": ["plato", "eslint", "lint", "typescript"],
-	"license": "UNLICENSED",
+	"license": "MIT",
 	"author": "Geoff Blair <geoff@platoteam.com>",
 	"repository": "github:plato-app/eslint-config-ts",
 	"main": "lib/index.js",
