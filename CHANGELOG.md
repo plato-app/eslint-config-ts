@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.3
+
+* Tweak `space-before-function-paren` rule to require a space for async arrow functions
+
 ## 0.3.2
 
 * Indent switch case blocks by 1
