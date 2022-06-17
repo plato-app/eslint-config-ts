@@ -3,10 +3,13 @@
 
 __metadata:
   version: 6
+  cacheKey: 8
 
 "@plato/eslint-config-ts@workspace:.":
   version: 0.0.0-use.local
   resolution: "@plato/eslint-config-ts@workspace:."
+  dependencies:
+    prettier: ^2.7.1
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^4.2.0
     "@typescript-eslint/parser": ^4.2.0
@@ -14,3 +17,12 @@ __metadata:
     typescript: ^4.0.3
   languageName: unknown
   linkType: soft
+
+"prettier@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "prettier@npm:2.7.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
+  languageName: node
+  linkType: hard
