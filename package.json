@@ -2,7 +2,12 @@
 	"name": "@plato/eslint-config-ts",
 	"version": "0.3.4",
 	"description": "Shareable ESLint config for TypeScript at Plato",
-	"keywords": ["plato", "eslint", "lint", "typescript"],
+	"keywords": [
+		"plato",
+		"eslint",
+		"lint",
+		"typescript"
+	],
 	"license": "MIT",
 	"author": "Geoff Blair <geoff@platoteam.com>",
 	"repository": "github:plato-app/eslint-config-ts",
@@ -15,5 +20,6 @@
 	},
 	"publishConfig": {
 		"access": "public"
-	}
+	},
+	"packageManager": "yarn@3.2.1"
 }
