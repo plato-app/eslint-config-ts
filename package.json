@@ -1,6 +1,6 @@
 {
 	"name": "@plato/eslint-config-ts",
-	"version": "0.3.4",
+	"version": "1.0.0",
 	"description": "Shareable ESLint config for TypeScript at Plato",
 	"keywords": [
 		"plato",

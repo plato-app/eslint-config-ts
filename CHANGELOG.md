@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0
+
+- Update ESLint/TypeScript peer dependencies
+
 ## 0.3.3
 
 - Tweak `space-before-function-paren` rule to require a space for async arrow functions
