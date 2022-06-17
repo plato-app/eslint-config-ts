@@ -22,11 +22,11 @@
 		"eslint": "*",
 		"typescript": "*"
 	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	},
 	"publishConfig": {
 		"access": "public"
 	},
-	"packageManager": "yarn@3.2.1",
-	"devDependencies": {
-		"prettier": "^2.7.1"
-	}
+	"packageManager": "yarn@3.2.1"
 }
